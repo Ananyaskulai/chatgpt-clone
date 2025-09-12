@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #121212;
+  /* Dark background */
+  color: #ffffff;
+  /* Default text color */
+}
+
+a {
+  color: #90caf9 !important;
+  /* Matches MUI primary color */
+  text-decoration: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: #f48fb1 !important;
+  /* Matches MUI secondary color */
+}
+
+a.active {
+  color: #57d96d !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: #121212 !important;
+  /* dark background */
+  color: #ffffff;
+  /* white text */
+}

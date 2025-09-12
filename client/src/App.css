@@ -1,0 +1,95 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar container */
+nav {
+    width: 100%;
+    background: linear-gradient(135deg, #1e1e2f, #252547);
+    padding: 1rem 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo / Title */
+nav h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* Links container */
+nav .links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+/* Common link style */
+nav .links a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Sign Up button */
+nav .links .signup {
+    background: #4cafef;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav .links .signup:hover {
+    background: #0077ff;
+    transform: scale(1.05);
+}
+
+/* Sign In button */
+nav .links .signin {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 8px 18px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav .links .signin:hover {
+    background: #ffffff;
+    color: #1e1e2f;
+    transform: scale(1.05);
+}
+
+/* Logout button */
+nav .links .logout {
+    background: #ff4b5c;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+nav .links .logout:hover {
+    background: #e60023;
+    transform: scale(1.05);
+}
+
+/* Home link */
+nav .links .home {
+    color: #b0b0ff;
+    font-weight: 500;
+}
+
+nav .links .home:hover {
+    color: #ffffff;
+}
